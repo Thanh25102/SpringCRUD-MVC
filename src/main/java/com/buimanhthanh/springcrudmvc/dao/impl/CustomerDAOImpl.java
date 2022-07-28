@@ -18,8 +18,7 @@ public class CustomerDAOImpl implements CustomerDAO {
     private SessionFactory sessionFactory;
 
     @Override
-    @Transactional
-    public List<Customer> getCustomer() {
+    public List<Customer> getCustomers() {
         // get current hibernate session
         Session session = sessionFactory.getCurrentSession();
         // create query
@@ -29,7 +28,7 @@ public class CustomerDAOImpl implements CustomerDAO {
     }
 
     @Override
-    public List<Customer> getCustomer(int id) {
+    public List<Customer> getCustomers(int id) {
         return null;
     }
 }
