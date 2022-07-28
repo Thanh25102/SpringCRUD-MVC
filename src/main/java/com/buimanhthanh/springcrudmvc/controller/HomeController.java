@@ -1,21 +1,27 @@
 package com.buimanhthanh.springcrudmvc.controller;
 
+import com.buimanhthanh.springcrudmvc.dao.CustomerDAO;
+import com.buimanhthanh.springcrudmvc.entity.Customer;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.SQLException;
+import java.util.List;
+
 
 @Controller
+@RequestMapping("/customer")
 public class HomeController {
-    @RequestMapping("/")
-    public String homePage(){
-        return "index";
-    }
 
-    @RequestMapping("/hello")
-    public String hello(){
-        return "index";
+    @Autowired
+    private CustomerDAO customerDAO;
+
+    @RequestMapping("/list")
+    public String Customers(Model model){
+        List<Customer> customers = customerDAO.getCustomer();
+        customers.forEach(s-> System.out.println(s));
+        model.addAttribute("customers",customers);
+        return "list-customer";
     }
 }
