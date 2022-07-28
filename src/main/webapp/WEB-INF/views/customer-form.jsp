@@ -37,9 +37,17 @@
                         <td><label>Email:</label></td>
                         <td><f:input path="email"/></td>
                     </tr>
+                    <tr>
+                        <td><input type="submit" value="save" class="save" /></td>
+                    </tr>
                 </tbody>
             </table>
         </f:form>
+        <br>
+        <br>
+        <p>
+            <a href="${pageContext.request.contextPath}/customer/list">Back to list</a>
+        </p>
     </div>
 </body>
 </html>

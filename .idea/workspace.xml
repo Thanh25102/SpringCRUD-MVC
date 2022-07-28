@@ -10,13 +10,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4aa550de-1d06-4682-9039-04df2a232682" name="Changes" comment="Wellcome file">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/buimanhthanh/springcrudmvc/service/CustomerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/buimanhthanh/springcrudmvc/service/impl/CustomerServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customer-form.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9137722b-d026-4edf-82f9-60dd0493ffdd.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9137722b-d026-4edf-82f9-60dd0493ffdd.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/buimanhthanh/springcrudmvc/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/buimanhthanh/springcrudmvc/controller/HomeController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/buimanhthanh/springcrudmvc/dao/CustomerDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/buimanhthanh/springcrudmvc/dao/CustomerDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/buimanhthanh/springcrudmvc/dao/impl/CustomerDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/buimanhthanh/springcrudmvc/dao/impl/CustomerDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/buimanhthanh/springcrudmvc/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/buimanhthanh/springcrudmvc/service/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/buimanhthanh/springcrudmvc/service/impl/CustomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/buimanhthanh/springcrudmvc/service/impl/CustomerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customer-form.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customer-form.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/list-customer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/list-customer.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -210,7 +211,8 @@
       <workItem from="1658926294073" duration="6911000" />
       <workItem from="1658934187557" duration="592000" />
       <workItem from="1658983778105" duration="9103000" />
-      <workItem from="1658994529002" duration="4809000" />
+      <workItem from="1658994529002" duration="4902000" />
+      <workItem from="1659020365422" duration="3377000" />
     </task>
     <task id="LOCAL-00001" summary="First Project Intellij">
       <created>1658983907274</created>
@@ -247,7 +249,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658992835500</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Wellcome file">
+      <created>1659001274088</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1659001274088</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
