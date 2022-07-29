@@ -22,27 +22,28 @@
     </div>
     <div id="container">
         <h3>save student</h3>
-        <f:form action="saveCustomer" modelAttribute="customer" method="POST">
-            <table>
-                <tbody>
-                    <tr>
-                       <td><label>First Name:</label></td>
-                        <td><f:input path="firstName"/></td>
-                    </tr>
-                    <tr>
-                        <td><label>Last Name:</label></td>
-                        <td><f:input path="lastName"/></td>
-                    </tr>
-                    <tr>
-                        <td><label>Email:</label></td>
-                        <td><f:input path="email"/></td>
-                    </tr>
-                    <tr>
-                        <td><input type="submit" value="save" class="save" /></td>
-                    </tr>
-                </tbody>
-            </table>
-        </f:form>
+            <f:form action="saveCustomer" modelAttribute="customer" method="POST">
+                <f:hidden path="id"/>
+                <table>
+                    <tbody>
+                        <tr>
+                           <td><label>First Name:</label></td>
+                            <td><f:input path="firstName"/></td>
+                        </tr>
+                        <tr>
+                            <td><label>Last Name:</label></td>
+                            <td><f:input path="lastName"/></td>
+                        </tr>
+                        <tr>
+                            <td><label>Email:</label></td>
+                            <td><f:input path="email"/></td>
+                        </tr>
+                        <tr>
+                            <td><input type="submit" value="save" class="save" /></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </f:form>
         <br>
         <br>
         <p>

@@ -33,13 +33,20 @@
                     <th>Action</th>
                 </tr>
                 <c:forEach var="tempCustomer"  items="${customers}">
-                    <c:url var="updateLink" value="/customer/showFormForUpdate">
-                        <c:param name="customerId" value="${tempCustomer.id}"/>
-                    </c:url>
                     <tr>
                         <td>${tempCustomer.firstName}</td>
                         <td>${tempCustomer.lastName}</td>
                         <td>${tempCustomer.email}</td>
+                        <td>
+<%--                            <c:url var="updateLink" value="/customer/showFormForUpdate">--%>
+<%--                                <c:param name="customerId" value="${tempCustomer.id}"/>--%>
+<%--                            </c:url>--%>
+                            <a href="<c:url value="/customer/showFormForUpdate?customerId=${tempCustomer.id}"/>">update</a>
+                            <a href="<c:url value="/customer/delete?customerId=${tempCustomer.id}"/>"
+                                onclick="if(!confirm('Are u sure delete customer ${tempCustomer.id}')) return false">
+                                delete</a>
+
+                        </td>
                     </tr>
                 </c:forEach>
             </table>
